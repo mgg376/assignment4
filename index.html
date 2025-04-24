@@ -12,12 +12,42 @@
 
 
 <body>   
-    <div id="map-title">Manhattan Greenways Part 1: Hudson River Greenway</div>
+    <div id="map-title">Manhattan Waterfront Greenways Part 1: Hudson River Greenway</div>
     <div id="map"></div>
-
+    
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
     <script src="data.js"></script>
     <script src="scripts.js"></script>
+
+    
+    
+    <div id="legend">
+        <div class="legend-item">
+            <div class="legend-color"></div>
+            <div>Complete</div>
+        </div>
+    </div>
+    
+    <div id="legend">
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #0320fc;"></div>
+            <div>Complete</div>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #ffd700;"></div>
+            <div>Undergoing construction</div>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #ff0000;"></div>
+            <div>No construction yet</div>
+        </div>
+        <div class="legend-item">
+            <img src="https://docs.mapbox.com/help/demos/custom-markers-gl-js/mapbox-icon.png" class="legend-marker" />
+            <div>Notable spots (click to learn more)</div>
+          </div>        
+        
+    </div>
+      
 
 </body>
 
