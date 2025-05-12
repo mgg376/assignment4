@@ -111,7 +111,7 @@ map.on('load', () => {
     type: 'line',
     source: 'harlemrivergreenway132to125',
     paint: {
-      'line-color': 'red',
+      'line-color': '#bc4ce6',
       'line-width': 4
     }
   });

@@ -17,7 +17,7 @@ const progressnotes = {
       "type": "Feature",
       "properties": {
         "title": "75th Street Closure",
-        "description": "E. 71st St.’s Hospital For Special Surgery, or HSS, has been working on a jutting $200 million extension called The Anna-Maria and Stephen Kellen Tower since October 2021; upon reaching the tower’s construction site, the Esplanade now more or less terminates.",
+        "description": "E. 71st St.’s Hospital For Special Surgery has been working on a  $200 million extension called The Anna-Maria and Stephen Kellen Tower since October 2021; this construction is likely the main factor in this closure.",
         "image": "images/75th_st_closure.jpg"
       },
       "geometry": {
