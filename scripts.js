@@ -1,3 +1,4 @@
+
 mapboxgl.accessToken = 'pk.eyJ1IjoibWdnMzc2IiwiYSI6ImNtOWF3dmk3MzBhNWQya3EzZHpyMmQ4ZDIifQ.WXxAjUmDcjYD8K0-iKGGzQ';
 
 const map = new mapboxgl.Map({
@@ -32,6 +33,8 @@ map.on('load', () => {
       'line-width': 4
     }
   });
+
+
 
   // Inwood Greenway (incomplete)
 map.addSource('inwoodgreenway', {
@@ -247,6 +250,7 @@ map.addLayer({
 // Lower East Side Greenway/East Side Coastal Resiliency Project (incomplete)
 map.addSource('eastsidecoastalresiliencyproject', {
   type: 'geojson',
+
   data: eastsidecoastalresiliencyproject
 });
 
@@ -255,7 +259,7 @@ map.addLayer({
   type: 'line',
   source: 'eastsidecoastalresiliencyproject',
   paint: {
-    'line-color': 'red',  
+    'line-color': '#bc4ce6',  
     'line-width': 4
   }
 });
@@ -279,7 +283,7 @@ map.addLayer({
 
 
   // Add markers with popups
-  notablelocations.features.forEach((feature) => {
+  progressnotes.features.forEach((feature) => {
     const { coordinates } = feature.geometry;
     const { title, description, image } = feature.properties;
 
@@ -297,6 +301,3 @@ map.addLayer({
       .addTo(map);
   });
 });
-
-
-
