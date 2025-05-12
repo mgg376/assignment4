@@ -5,8 +5,8 @@ const progressnotes = {
       "type": "Feature",
       "properties": {
         "title": "114th Street Closure",
-        "description": "The New York City Department of Parks and Recreation allocated $25 million to stabilize the greenway between 114th and 117th Streets in 2019, construction supposedly began Summer 2024",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Little_Red_Lighthouse%2C_Fort_Washington_Park.jpg"
+        "description": "The New York City Department of Parks and Recreation allocated $25 million to stabilize the greenway between 114th and 117th Streets in 2019, construction supposedly began Summer 2024. No word on completion date.",
+        "image": "images/114th_st_closure.jpg"
       },
       "geometry": {
         "coordinates": [-73.93319026182193, 40.79299096058489],
@@ -17,8 +17,8 @@ const progressnotes = {
       "type": "Feature",
       "properties": {
         "title": "75th Street Closure",
-        "description": "E. 71st St.’s Hospital For Special Surgery, or HSS, has been working on a jutting $200 million extension called The Anna-Maria and Stephen Kellen Tower since October 2021; upon reaching the tower’s construction site, the Esplanade now more or less terminates",
-        "image": "https://i.redd.it/ep7uy1uua8ee1.jpeg"
+        "description": "E. 71st St.’s Hospital For Special Surgery, or HSS, has been working on a jutting $200 million extension called The Anna-Maria and Stephen Kellen Tower since October 2021; upon reaching the tower’s construction site, the Esplanade now more or less terminates.",
+        "image": "images/75th_st_closure.jpg"
       },
       "geometry": {
         "coordinates": [-73.9497371406162, 40.76769727212201],
@@ -29,8 +29,8 @@ const progressnotes = {
       "type": "Feature",
       "properties": {
         "title": "UN Esplanade",
-        "description": "Planning should be finished by 2026. The estimated completion date for the project is 2028, with the estimated cost currently sitting at $153 million",
-        "image": "https://media.cnn.com/api/v1/images/stellar/prod/210524225200-02-little-island-ny-0525.jpg?q=w_3000,h_2000,x_0,y_0,c_fill"
+        "description": "Planning should be finished by 2026. The estimated completion date for the project is 2028, with the estimated cost currently sitting at $153 million.",
+        "image": "images/un_esplanade.jpg"
       },
       "geometry": {
         "coordinates": [-73.96832310712755, 40.7474167420192],
@@ -42,7 +42,7 @@ const progressnotes = {
       "properties": {
         "title": "East River Pinch Point (Con Ed Plant)",
         "description": "The location of the Con Ed power plant, DOT is planning to widen this very narrow section (just 4 feet wide at some points)",
-        "image": "https://media.cnn.com/api/v1/images/stellar/prod/210524225200-02-little-island-ny-0525.jpg?q=w_3000,h_2000,x_0,y_0,c_fill"
+        "image": "images/east_river_pinch.jpg"
       },
       "geometry": {
         "coordinates": [-73.971730, 40.727132],
@@ -54,7 +54,7 @@ const progressnotes = {
       "properties": {
         "title": "East Side Coastal Resiliency Project",
         "description": "This is a coastal protection initiative, jointly funded by the City of New York and the federal government, aimed at reducing flood risk due to coastal storms and sea level rise. Construction began in Fall 2020 and is scheduled to be completed by the end of 2026. ",
-        "image": "https://media.cnn.com/api/v1/images/stellar/prod/210524225200-02-little-island-ny-0525.jpg?q=w_3000,h_2000,x_0,y_0,c_fill"
+        "image": "images/eastside_coastal_proj.jpg"
       },
       "geometry": {
         "coordinates": [-73.97675284729088, 40.71165728152201],
@@ -66,7 +66,7 @@ const progressnotes = {
       "properties": {
         "title": "Esplanade Gardens- Harlem River Speedway",
         "description": "Expanding the greenway here will provide neighborhood residents direct access waterfront access, which is currently being blocked by the Harlem River Drive, subway rail yards, and private property. Construction is expected to begin in mid-2025 and last for about 30 months. In addition to pedestrian and bike paths, the project will also include a new pier for recreation. ",
-        "image": "https://media.cnn.com/api/v1/images/stellar/prod/210524225200-02-little-island-ny-0525.jpg?q=w_3000,h_2000,x_0,y_0,c_fill"
+        "image": "images/harlem_river_speedway.jpg"
       },
       "geometry": {
         "coordinates": [-73.93517350747786, 40.83315038932926],
@@ -78,7 +78,19 @@ const progressnotes = {
       "properties": {
         "title": "Inwood Greenway",
         "description": "The greenway will connect Inwood Hill Park to Sherman Creek and direct pedestrian and bike access to Bronx via the Broadway and University Heights bridges. The path will run along 10th avenue between 201 and 218 streets. It will include sidewalk extensions, pedestrian islands, raised crosswalks, improved lighting under the elevated 1 train subway line, and a new pedestrian plaza. As of 2024, $96 million in federal grants has been secured, design work is set to begin in 2025. ",
-        "image": "https://media.cnn.com/api/v1/images/stellar/prod/210524225200-02-little-island-ny-0525.jpg?q=w_3000,h_2000,x_0,y_0,c_fill"
+        "image": "images/inwood.jpg"
+      },
+      "geometry": {
+        "coordinates": [-73.92261741463992, 40.876471163105776],
+        "type": "Point"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Harlem River Link",
+        "description": "Construction has begun, no end date set",
+        "image": "images/harlem_river_link.jpg"
       },
       "geometry": {
         "coordinates": [-73.92261741463992, 40.876471163105776],
