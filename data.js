@@ -81,7 +81,7 @@ const progressnotes = {
         "image": "images/inwood.jpg"
       },
       "geometry": {
-        "coordinates": [-73.92261741463992, 40.876471163105776],
+        "coordinates": [-73.920154, 40.862656],
         "type": "Point"
       }
     },
@@ -93,7 +93,7 @@ const progressnotes = {
         "image": "images/harlem_river_link.jpg"
       },
       "geometry": {
-        "coordinates": [-73.92261741463992, 40.876471163105776],
+        "coordinates": [-73.930150, 40.803323],
         "type": "Point"
       }
     }
