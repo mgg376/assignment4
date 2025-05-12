@@ -289,7 +289,7 @@ map.on('load', () => {
     const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(`
       <div style="text-align:center;">
         <h3>${title}</h3>
-        <img src="${image}" alt="${title}" width="150" style="border-radius: 10px;" />
+        <img src="${image}" alt="${title}" width="220" style="border-radius: 10px;" />
         <p>${description}</p>
       </div>
     `);
